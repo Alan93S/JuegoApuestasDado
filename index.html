@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="style.css">   
+    <title>Dice Game</title>
+</head>
+  
+<body>
+    <div class="container">
+        <h1>Prueba tu suerte</h1>
+  
+        <div class="dice">
+            
+            <img class="img1" src="dice6.png">
+        </div>
+
+
+        <h3 id="initialMoney"> Tienes $500 </h3>
+  
+       
+    </div>
+  
+    <div class="gamble-label">
+        <input type="text" id="gamble" placeholder="ingresa numero del 1 al 6" >
+    </div>
+
+    <div class="amount">
+        <input type="text" id="amount" placeholder="dinero a apostar" >
+    </div>
+
+
+    <div class="container bottom">
+        <button type="button" class="butn"
+            onClick="rollTheDice()">
+            Lanza el dado
+        </button>
+    </div>
+  
+
+    <script src="diceGame.js"></script>
+</body>
+  
+</html>
+
